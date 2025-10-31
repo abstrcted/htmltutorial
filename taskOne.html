@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Advanced text semantics — Task 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+      margin: 20px;
+    }
+
+    h1 {
+      color: purple;
+    }
+
+    a {
+      color: green;
+    }
+
+    blockquote {
+      margin-left: 1em;
+      color: #333;
+    }
+
+    abbr {
+      text-decoration: underline dotted;
+      cursor: help;
+    }
+  </style>
+</head>
+<body>
+  <h1>Advanced text semantics</h1>
+
+  <p>Let's start with a quote:</p>
+
+  <blockquote cite="https://developer.mozilla.org/en-US/docs/Learn/Accessibility">
+    <p>
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">HTML</a>,
+      Hypertext Markup Language is by default accessible, if used correctly.
+    </p>
+  </blockquote>
+
+  <p>
+    <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">CSS</a>,
+    Cascading Style Sheets, can also be used to make web pages more, or less,
+    accessible.
+  </p>
+
+  <p>
+    Chemical Formulae: H<sub>2</sub>O (Water), C<sub>2</sub>H<sub>6</sub>O
+    (Ethanol).
+  </p>
+
+  <p>
+    Dates:
+    <time datetime="2019-12-25">
+      <a href="#">December 25<sup>th</sup> 2019</a>
+    </time>
+    (Christmas Day),
+    <time datetime="2019-11-02">
+      <a href="#">November 2<sup>nd</sup> 2019</a>
+    </time>
+    (Día de los Muertos).
+  </p>
+</body>
+</html>
