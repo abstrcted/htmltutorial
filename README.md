@@ -16,7 +16,7 @@ This repository contains my HTML tutorial assessments and exercises.
 
 ## Live Demo
 
-Visit the live site: [GitHub Pages URL will be here after deployment]
+Visit the live site: [https://abstrcted.github.io/htmltutorial/](https://abstrcted.github.io/htmltutorial/)
 
 ## How to View
 
